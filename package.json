@@ -1,0 +1,14 @@
+{
+  "name": "learning-management-system-for-it-department",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nrwl/nx-cloud": "15.0.2",
+    "nx": "15.4.0",
+    "prettier": "^2.6.2"
+  }
+}
+

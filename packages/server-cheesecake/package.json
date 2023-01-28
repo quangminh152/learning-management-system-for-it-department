@@ -1,0 +1,16 @@
+{
+  "name": "server-cheesecake",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "go run main.go serve",
+    "serve": "./server-cheesecake-pocketbase serve",
+    "build": "pocketbase-typegen --db ./pb_data/data.db --out ./types/pocketbase-types.ts && tsc --outDir ./dist"
+  },
+  "devDependencies": {
+    "pocketbase-typegen": "^1.1.2",
+    "typescript": "^4.9.4"
+  }
+}
