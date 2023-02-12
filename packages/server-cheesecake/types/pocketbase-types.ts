@@ -64,6 +64,10 @@ export type CoursesRecord = {
 	name: string
 	credit: number
 	major: RecordIdString
+	year?: number
+	semester?: number
+	isElective?: boolean
+	isComplete?: boolean
 }
 
 export type CurriculumsRecord = {
